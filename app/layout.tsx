@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Caveat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap" ,variable: "--font-inter" });
+const caveat = Caveat({ subsets: ["latin"], display: "swap", variable:"--font-caveat"})
 
 export const metadata: Metadata = {
   title: "Hari Pajjuri",
@@ -16,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.variable} ${caveat.variable}`}>{children}</body>
     </html>
   );
 }

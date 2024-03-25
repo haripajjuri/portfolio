@@ -9,7 +9,7 @@ export default function Landing(){
     return(
        <div className="h-[100svh] flex flex-col items-center justify-between py-6">
         <div className="w-full font-bold text-xs md:text-sm">HARI</div>
-            <div className="flex flex-col items-center gap-3 my-36">
+            <div className="flex flex-col items-center gap-2 my-36">
             <div className="font-semibold text-2xl opacity-30">hey i'm</div>
             <div className="font-caveat font-bold text-7xl md:text-8xl">
                 <span>Hari </span>
