@@ -5,11 +5,11 @@ import Contact from "./(sectionComponents)/contact";
 
 export default function Home() {
   return (
-    <>
-    <Landing/>
-    <About/>
-    <Projects/>
-    <Contact/>
-    </>
+    <div className="w-[90%] mx-auto">
+      <Landing/>
+      <About/>
+      <Projects/>
+      <Contact/>
+    </div>
   );
 }

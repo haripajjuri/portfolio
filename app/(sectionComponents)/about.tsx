@@ -1,5 +1,5 @@
 export default function About(){
     return(
-        <div>this is about page</div>
+        <div id="about" className="h-[100svh]">this is about page</div>
     )
 }
